@@ -1,0 +1,13 @@
+{
+    "printWidth": 150,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "eslintIntegration": false,
+    "tslintIntegration": false,
+    "stylelintIntegration": false,
+    "ignorePath": ".prettierignore",
+    "insertSpaceBeforeFunctionParenthesis": false
+}
