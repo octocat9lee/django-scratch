@@ -125,3 +125,9 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+AWS_ACCESS_KEY_ID = "label_minio"
+AWS_SECRET_ACCESS_KEY = "label_minio"
+AWS_STORAGE_BUCKET_NAME = "django"
+AWS_S3_ENDPOINT_URL = "http://10.0.201.52:9000"

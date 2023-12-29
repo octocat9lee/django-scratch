@@ -15,6 +15,7 @@ def model_form_upload(request):
         form = FileUploadModelForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
+            print("File Uploaded Successfully")
             return redirect("/file/")
     else:
         form = FileUploadModelForm()
